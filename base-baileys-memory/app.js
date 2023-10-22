@@ -41,7 +41,6 @@ const flowGracias = addKeyword(['pedidos', 'pedido']).addAnswer(
 
 const flowDiscord = addKeyword(['presupuesto', 'Presupuesto']).addAnswer(
     ['🤪 Mandanos tu Stl o tu idea para que te la Cotizemos'],
-    ['Volver'],
     null,
     null,
     [flowSecundario]
