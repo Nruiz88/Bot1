@@ -32,6 +32,8 @@ const flowGracias = addKeyword(['pedidos', 'pedido']).addAnswer(
         '[*WebShop*] https://craft3d.com.ar',
         '[*Instagram*] https://www.instagram.com/craft3d_nqn/',
         '[*Facebook*] https://www.facebook.com/craft3dnqn/',
+        ['Volver'],
+        
         ],
     null,
     null,
@@ -40,12 +42,13 @@ const flowGracias = addKeyword(['pedidos', 'pedido']).addAnswer(
 
 const flowDiscord = addKeyword(['presupuesto', 'Presupuesto']).addAnswer(
     ['🤪 Mandanos tu Stl o tu idea para que te la Cotizemos'],
+    ['Volver'],
     null,
     null,
     [flowSecundario]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
+const flowPrincipal = addKeyword(['hola', 'ole', 'volver'])
     .addAnswer('🙌 Hola, que tal, en que podemos ayudarte?')
     .addAnswer(
         [
