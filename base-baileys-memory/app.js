@@ -32,7 +32,6 @@ const flowGracias = addKeyword(['pedidos', 'pedido']).addAnswer(
         '[*WebShop*] https://craft3d.com.ar',
         '[*Instagram*] https://www.instagram.com/craft3d_nqn/',
         '[*Facebook*] https://www.facebook.com/craft3dnqn/',
-        '[*Volver*]',
         
         ],
     null,
