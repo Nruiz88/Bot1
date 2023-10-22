@@ -19,7 +19,7 @@ const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswe
 
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [
-        '🙌 Aquí encontras un ejemplo rapido',
+        '🙌 Aca encontras un ejemplo rapido',
         'https://bot-whatsapp.netlify.app/docs/example/',
         '\n*2* Para siguiente paso.',
     ],
@@ -49,7 +49,7 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 )
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+    .addAnswer('🙌 Buenas bienvenido a este *Chatbot*')
     .addAnswer(
         [
             'te comparto los siguientes links de interes sobre el proyecto',
