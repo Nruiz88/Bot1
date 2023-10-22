@@ -6,7 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
-const flowDocs = addKeyword(['Filmento']).addAnswer(
+const flowDocs = addKeyword(['filmento', 'fila']).addAnswer(
     [
         '📄 En este momento no Contamos con Ningun Stock de Filamento',
     ],
@@ -26,7 +26,7 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [flowSecundario]
 )
 
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
+const flowGracias = addKeyword(['pedidos', 'pedido']).addAnswer(
     [
         '🚀 Puedes revisar nuestros productos Online',
         '[*WebShop*] https://craft3d.com.ar',
@@ -38,7 +38,7 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [flowSecundario]
 )
 
-const flowDiscord = addKeyword(['presupuesto']).addAnswer(
+const flowDiscord = addKeyword(['presupuesto', 'Presupuesto']).addAnswer(
     ['🤪 Mandanos tu Stl o tu idea para que te la Cotizemos'],
     null,
     null,
