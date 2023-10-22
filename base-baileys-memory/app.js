@@ -6,11 +6,9 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
+const flowDocs = addKeyword(['Filmento']).addAnswer(
     [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
+        '📄 En este momento no Contamos con Ningun Stock de Filamento',
     ],
     null,
     null,
@@ -30,32 +28,31 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
 
 const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
     [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
+        '🚀 Puedes revisar nuestros productos Online',
+        '[*WebShop*] https://craft3d.com.ar',
+        '[*Instagram*] https://www.instagram.com/craft3d_nqn/',
+        '[*Facebook*] https://www.facebook.com/craft3dnqn/',
+        ],
     null,
     null,
     [flowSecundario]
 )
 
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
+const flowDiscord = addKeyword(['presupuesto']).addAnswer(
+    ['🤪 Mandanos tu Stl o tu idea para que te la Cotizemos'],
     null,
     null,
     [flowSecundario]
 )
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Buenas bienvenido a este *Chatbot*')
+    .addAnswer('🙌 Hola, que tal, en que podemos ayudarte?')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
+            'te comparto las siguientes opciones',
+            '👉 *Filamento* para ver nuestro Stock',
+            '👉 *Pedidos*  para ver nuestros productos',
+            '👉 *Presupuesto* para consultarnos',
         ],
         null,
         null,
